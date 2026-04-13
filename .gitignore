@@ -1,0 +1,8 @@
+final_project.db
+airflow.db
+standalone_admin_password.txt
+
+venv/
+logs/
+__pycache__/
+.env
