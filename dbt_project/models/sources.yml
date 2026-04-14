@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: olist_raw
+    schema: main
+    meta:
+      external_location: "../data/{name}.csv"
+    tables:
+      - name: olist_customers_dataset
+      - name: olist_orders_dataset
+      - name: olist_order_items_dataset
+      - name: olist_products_dataset
+      - name: olist_sellers_dataset
+      - name: olist_order_reviews_dataset
+        meta:
+          external_location: "../data/olist_order_reviews_dataset.json"
